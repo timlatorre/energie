@@ -1,7 +1,7 @@
 Energie::Application.routes.draw do
 
   root :to => 'zips#index'
-  resources :zips
+  post '/create' => 'zips#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
