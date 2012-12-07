@@ -1,10 +1,10 @@
 $(function(){
 
-  $('button').click(test);
+  $('button').click(get_stock_quote);
 
 });
 
-function test(){
+function get_stock_quote(){
 
 alert('works!');
 
